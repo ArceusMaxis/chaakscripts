@@ -8,21 +8,21 @@ class_name Random extends Node
 
 # Random Vector2
 
-static func random2d(min_x: float, max_x: float, min_y: float, max_y: float) -> Vector2:
+static func random_2d(min_x: float, max_x: float, min_y: float, max_y: float) -> Vector2:
 	var random_x = randf_range(min_x, max_x)
 	var random_y = randf_range(min_y, max_y)
 	return Vector2(random_x, random_y)
 
 # Random Vector2i
 
-static func random2di(min_x: int, max_x: int, min_y: int, max_y: int) -> Vector2:
+static func random_2di(min_x: int, max_x: int, min_y: int, max_y: int) -> Vector2:
 	var random_x = randi_range(min_x, max_x)
 	var random_y = randi_range(min_y, max_y)
 	return Vector2(random_x, random_y)
 
 # Random Vector3
 
-static func random3d(min_x: float, max_x: float, min_y: float, max_y: float, min_z: float, max_z: float) -> Vector3:
+static func random_3d(min_x: float, max_x: float, min_y: float, max_y: float, min_z: float, max_z: float) -> Vector3:
 	var random_x = randf_range(min_x, max_x)
 	var random_y = randf_range(min_y, max_y)
 	var random_z = randf_range(min_z, max_z)
@@ -30,7 +30,7 @@ static func random3d(min_x: float, max_x: float, min_y: float, max_y: float, min
 
 # Random Vector3i
 
-static func random3di(min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int) -> Vector3:
+static func random_3di(min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int) -> Vector3:
 	var random_x = randi_range(min_x, max_x)
 	var random_y = randi_range(min_y, max_y)
 	var random_z = randi_range(min_z, max_z)
