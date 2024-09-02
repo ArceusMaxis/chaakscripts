@@ -1,5 +1,32 @@
-# Random Class Documentation:
+# Random Class Documentation
 Contains a variety of randomness functions that is useful for procedural generation.
+
+## Methods
+| Function | Return Type | Description |
+|----------|-------------|-------------|
+| `random2d(min_x: float, max_x: float, min_y: float, max_y: float)` | `Vector2` | Generates a random 2D vector with float components |
+| `random2di(min_x: int, max_x: int, min_y: int, max_y: int)` | `Vector2i` | Generates a random 2D vector with integer components |
+| `random3d(min_x: float, max_x: float, min_y: float, max_y: float, min_z: float, max_z: float)` | `Vector3` | Generates a random 3D vector with float components |
+| `random3di(min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int)` | `Vector3i` | Generates a random 3D vector with integer components |
+| `random_color_rgb()` | `Color` |	Generates a random RGB color (no alpha) |
+| `random_color_rgba()`	| `Color`	| Generates a random RGBA color (with alpha) | 
+| `random_color_hsv()`	| `Color`	| Generates a random HSV color (no alpha) |
+| `random_direction_2d()` | `Vector2` | Random unit Vector2D representing a direction |
+| `random_direction_3d()` | `Vector3` | Random unit Vector3D representing a direction |
+| `random_rotation_radians()` | `float` | Random rotation in radians |
+| `random_rotation_radians_2d()` | `Vector2` | Random rotation in 2 axes, in radians |
+| `random_rotation_radians_3d()` | `Vector3` | Random rotation in 3 axes, in radians |
+| `random_rotation_degrees()` | `float` | Random rotation in degrees |
+| `random_rotation_degrees_2d()` | `Vector2` | Random rotation in 2 axes, in degrees |
+| `random_rotation_degrees_3d()` | `Vector3` | Random rotation in 3 axes, in degrees |
+| `point_in_region_2d(region: Rect2)` | `Vector2` | Random point inside 2D rectangular region |
+| `point_in_region_3d(region: AABB)` | `Vector3` | Random point inside 3D cuboidal region |
+| `point_in_circle(radius_min: float, radius_max: float)` | `Vector2` | Random point inside a 2D circle with min/max radii |
+| `point_in_sphere(radius_min: float, radius_max: float)` | `Vector3` | Random point inside a 3D sphere with min/max radii |
+| `random_str(length: int)` | `String` | Random string of specified length, containing lowercase letters, uppercase letters, and digits |
+| `random_str_numeric(length: int)` | `String` | Random string of specified length, containing only digits |
+| `random_str_alphanumeric(length: int)` | `String` | Random string of specified length, containing only lowercase letters and digits |
+| `random_str_alpha(length: int)` | `String` | Random string of specified length, containing only lowercase letters |
 
 ### Random2D
 
