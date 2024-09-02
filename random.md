@@ -4,10 +4,10 @@ Contains a variety of randomness functions that is useful for procedural generat
 ## Methods
 | Function | Return Type | Description |
 |----------|-------------|-------------|
-| `random2d(min_x: float, max_x: float, min_y: float, max_y: float)` | `Vector2` | Generates a random 2D vector with float components |
-| `random2di(min_x: int, max_x: int, min_y: int, max_y: int)` | `Vector2i` | Generates a random 2D vector with integer components |
-| `random3d(min_x: float, max_x: float, min_y: float, max_y: float, min_z: float, max_z: float)` | `Vector3` | Generates a random 3D vector with float components |
-| `random3di(min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int)` | `Vector3i` | Generates a random 3D vector with integer components |
+| `random_2d(min_x: float, max_x: float, min_y: float, max_y: float)` | `Vector2` | Generates a random 2D vector with float components |
+| `random_2di(min_x: int, max_x: int, min_y: int, max_y: int)` | `Vector2i` | Generates a random 2D vector with integer components |
+| `random_3d(min_x: float, max_x: float, min_y: float, max_y: float, min_z: float, max_z: float)` | `Vector3` | Generates a random 3D vector with float components |
+| `random_3di(min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int)` | `Vector3i` | Generates a random 3D vector with integer components |
 | `random_color_rgb()` | `Color` |	Generates a random RGB color (no alpha) |
 | `random_color_rgba()`	| `Color`	| Generates a random RGBA color (with alpha) | 
 | `random_color_hsv()`	| `Color`	| Generates a random HSV color (no alpha) |
